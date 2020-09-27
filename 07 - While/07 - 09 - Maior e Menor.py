@@ -15,5 +15,5 @@ while resp in 'Ss':
             menor = num
     resp = str(input('Quer continuar? [S/N]: ')).upper().strip()[0]
 media = soma / quant
-print(f'Voce digitou {quant} numeros e a media é {media}')
+print(f'Voce digitou {quant} numeros e a media é {media:.2f}')
 print(f'O maior valor é {maior} e o menor valor é {menor}')
