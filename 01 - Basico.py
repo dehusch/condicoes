@@ -1,6 +1,15 @@
 #PY
 nome = input('Qual é seu nome? ')
-print('Prazer em te conhecer {:_^20}!'.format(nome))
+print('Prazer em te conhecer {:_^20}!'.format(nome)) #entre 20 caracteres é preenchido por _
+a = input('Digite algo: ')
+print(f'O tipo primitivo desse valor é {type(a)}') #boleano, string, numero inteiro, numero quebrado
+print(f'Só tem espaços? {a.isspace()}')
+print(f'É um número? {a.isnumeric()}')
+print(f'É alfabético? {a.isalpha()}')
+print(f'É alfanumérico? {a.isalnum()}')
+print(f'Está em maiúsculas? {a.isupper()}')
+print(f'Está em minúsculas? {a.islower()}')
+print(f'Está capitalizado? {a.istitle()}')
 #var
 print('Vamos fazer os calculos aritimeticos de 2 numeros')
 n1 = int(input('Digite o primeito valor: '))

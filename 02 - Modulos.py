@@ -3,9 +3,9 @@ import random
 import math
 from math import sqrt #somente um exemplo escolhendo a função especifica.
 import pygame
-num = int(input('Digite um numero: '))
+num = int(input('Digite um numero:'))
 raiz = math.sqrt(num)
-print("A raiz de {} é {:.3f}".format(num, raiz))
+print(f'A raide de {num}, é {raiz}') #novo formato do print
 print("Arrendodar para cima o resultado é: {}".format (math.ceil(raiz)))
 print("Arredondar para baixo o resultado é: {}".format (math.floor(raiz)))
 #
@@ -18,10 +18,15 @@ print('O numero aleatorio gerado é {}'.format (num))
 #
 print(emoji.emojize(":grimacing:", use_aliases=True))
 #
-#Digitar numero real e mostrar Inteiro
+#Digitar numero real (quebrado) e mostrar Inteiro
 #
 num1 = float(input('Digite um numero com 3 casas decimais: '))
 print('O numero arredondado sem casas decimais é {}'.format (math.trunc(num1)))
+#
+#sem o modulo math:
+#
+numq = float(input('Digite um numero com 3 casas depois da virgula:'))
+print(f'O numero {numq} tem a parte inteira {int(numq)}')
 #
 #Calcular a Hipotenusa
 #
@@ -57,3 +62,29 @@ lista = [n1, n2, n3, n4]
 random.shuffle(lista)
 print('A ordem de apresentação sera: \n {}'.format(lista))
 #
+#com numeros inteiros
+#
+import random
+alu1 = int(3)
+alu2 = int(4)
+alu3 = int(6)
+alu4 = int(5)
+lista = [alu1, alu2, alu3, alu4]
+random.shuffle(lista)
+print(f'A ordem é {lista}')
+#encontrando a hipotenusa
+#
+cato = float(input('Digite o Cateto oposto:'))
+cata = float(input('Digite o Cateto adjacente:'))
+hyp = ((cato**2)+(cata**2))**(1/2)
+hyp1 = math.hypot(cato,cata)
+print(f'A hipotenusa é {hyp}')
+print(f'Usando math: {hyp1}')
+#
+#Encontrando seno, coseno, tangente de um angulo
+#
+ang = int(input('Digite um angulo:'))
+cos = math.cos(math.radians(ang))
+sen = math.sin(math.radians(ang))
+tan = math.tan(math.radians(ang))
+print(f'O coseno é {cos}, o seno é {sen}, e a tangente é {tan}')
