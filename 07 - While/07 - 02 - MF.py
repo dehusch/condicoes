@@ -7,3 +7,10 @@ if mf1 == 'M':
     print('Voce é do sexo masculino')
 if mf1 == 'F':
     print('Voce é do sexo feminino')
+
+#Outra forma
+
+s = str(input('Digite seu sexo: ')).strip()[0]
+while s not in 'MmFf':
+  sexo = str(input('Dados invalidos! Digite novamente:')).strip([0])
+print(f'sexo {s} informado com sucesso!')
