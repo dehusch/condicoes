@@ -27,3 +27,29 @@ while opcao != 5:
     elif opcao == 5:
         print('Finalizando!!!')
 print('Fim do programa')
+
+#novo formato
+
+number1 = int(input('Digite um valor: '))
+number2 = int(input('Digite outro valor: '))
+opcao1 = 0
+while opcao1 != 5:
+  print('[1] SOMAR')
+  print('[2] MULTIPLICAR')
+  print('[3] MAIOR NUMERO')
+  print('[4] NOVOS NUMEROS')
+  print('[5] FINALIZAR PROGRAMA')
+  opcao1 = int(input('Escolha uma opção: '))
+  if opcao1 == 1:
+    print(f' A soma é {number1 + number2}')
+  elif opcao1 == 2:
+    print(f'A multiplicação é {number1 * number2}')
+  elif opcao1 == 3:
+    if number1 > number2:
+      print(f'{number1} é o maior')
+    else:
+      print(f'O numero maior é {number2}')
+  elif opcao1 == 4:
+    number1 = int(input('Digite um valor: '))
+    number2 = int(input('Digite outro valor: '))
+print('FIM')
