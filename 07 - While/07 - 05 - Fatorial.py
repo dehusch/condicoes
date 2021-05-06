@@ -19,3 +19,13 @@ while c > 0:
     fa = fa * c
     c = c - 1
 print(f'{fa}')
+
+#outra forma
+numfac = int(input('Digite um numero para saber seu fatorial: '))
+cn = numfac
+fat = 1
+while cn > 0:
+  fat = fat * cn
+  cn = cn - 1
+print(fat)
+print('FIM')
