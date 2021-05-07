@@ -17,3 +17,13 @@ while mais != 0:
 print(f'Foram feitas um total de {total} progressões')
 print('Fim')
 
+#functional
+
+startnum = int(input('Digite um numero: '))
+intervnum = int(input('Digite o intervalo da PA: '))
+limit = 1
+while limit <= 10:
+  print(startnum)
+  startnum = startnum + intervnum
+  limit += 1
+print('Fim')
