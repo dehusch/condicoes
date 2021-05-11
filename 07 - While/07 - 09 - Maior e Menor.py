@@ -17,3 +17,30 @@ while resp in 'Ss':
 media = soma / quant
 print(f'Voce digitou {quant} numeros e a media é {media:.2f}')
 print(f'O maior valor é {maior} e o menor valor é {menor}')
+
+#another way
+
+valor = 0
+contador = 0
+soma = 0
+media = 0
+maior = 0
+menor = 0
+resposta = "S"
+while resposta == "S":
+  valor = int(input('Digite um valor: '))
+  resposta = str(input('Quer continurar [S/N]: ')).upper()
+  contador = contador + 1
+  soma = soma + valor
+  media = soma / contador
+  if contador == 1:
+    maior = menor = valor
+  else:
+    if valor > maior:
+      maior = valor
+    if valor < menor:
+      menor = valor
+
+print(f"Voce digitou {contador} e a media é {media}")
+print(f"O maior valor foi {maior} e o menor valor foi {menor}")
+print("Fim")
