@@ -56,11 +56,7 @@ print(f'Tem {aquantidade} letras A na frase')
 #
 #Outra forma
 #
-nome = input('Digite seu nome: ')
-if nome.find('silva') >= 0:
-  print('seu nome tem silva')
-else:
-  print('seu nome nao tem silva')
+
 #
 #026: Faça um programa que leia uma frase pelo teclado e mostre quantas vezes aparece a letra "A", em que posição ela aparece a primeira vez e em que posição ela aparece a última vez.
 #
