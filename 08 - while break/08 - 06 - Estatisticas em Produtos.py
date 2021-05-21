@@ -60,4 +60,4 @@ while True:
 print(f"Total de produtos acima de 1000 é igual a : {totmil}")
 print(f"Preco total: {total}")
 print(f"O menor produto é: {barato} ")
-print(f"O valor do menor produto é: {menor} ")
+print(f"O valor do menor produto é : {menor} ")
