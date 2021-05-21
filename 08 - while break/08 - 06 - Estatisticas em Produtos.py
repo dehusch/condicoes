@@ -31,7 +31,7 @@ while True:
     if cont == "N":
 
         break
-print(f"Total de produtos acima de 1000 é igual a: {contprod}")
+print(f"Total de produtos acima de 1000 é igual a : {contprod}")
 print(f"Preco total: {totalcompra}")
 print(f"O menor produto é: {menorProduto} ")
 print(f"O valor do menor produto é: {menorPreco} ")
