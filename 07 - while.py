@@ -37,4 +37,4 @@ while n != 0:
             par = par + 1
         else:
             impar = impar + 1
-print('Voce digitou {} numero(s) par(es) e {} numero(s) impar(es)'. format(par, impar))
+print('Voce digitou {} número(s) par(es) e {} numero(s) impar(es)'. format(par, impar))
