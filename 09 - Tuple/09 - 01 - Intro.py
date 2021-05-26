@@ -18,3 +18,16 @@ for cont in range(0, len(lanche)):
 #
 for pos, comida in enumerate(lanche):
     print(f"Eu vou comer {comida} na posicao {pos}")
+#
+#Colocar a tupla em ordem alfabetica
+#
+print(sorted(lanche))
+#
+a = (2, 3, 1)
+b = (6, 4, 9, 2, 2)
+c = a + b
+print(sorted(b))
+print(sorted(c))
+print(c)
+print(c.count(2))
+print(c.index(2))#apenas a primeira ocorrencia
