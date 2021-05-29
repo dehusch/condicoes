@@ -1,18 +1,19 @@
-time = ("América-MG", "Athletico", "Atlético-GO", "Atlético-MG", "Bahia", "Ceará", "Chapecoense")
+times = ("América-MG", "Athletico", "Atlético-GO", "Atlético-MG", "Bahia", "Ceará", "Chapecoense")
+quantidade = int(input('Digite a quantidade de posições que deseja saber: '))
 
-'''os ultimos 4 colocados
-ordem alfabética
-em que posicao está x time
-'''
-
-#quantidade = int(input('Digite a quantidade de posições que deseja saber: '))
-quantidade = 5
 #Nesse for percorre em times a quantidade de times digitada
+print('Os 5 primeiros colocados são: ')
 for primeiros in range(0,quantidade):
-    print( time[primeiros])
-    print(' ----------------------')
+    print( times[primeiros])
 
-for ultimos in range(0,len(time)):
-    print( time[(len(time))- ultimos])
+print('Os 4 últimos colocados são')
+for ultimos in range(-4,0):
+    print( times[ultimos])
+
+print('Times em ordem alfabética: ')
+print(sorted(times))
+
+for posicao in range(0,time):
+    print( times[primeiros])
 
 
