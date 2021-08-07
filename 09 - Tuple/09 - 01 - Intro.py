@@ -32,3 +32,7 @@ print(sorted(c))
 print(c)
 print(c.count(2))
 print(c.index(2))#apenas a primeira ocorrencia
+
+pessoa = ('Denis', 37, 'M')
+print(pessoa)
+#uma tupla aceita varios tipos de valores dentro dela.
