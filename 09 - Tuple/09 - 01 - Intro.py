@@ -1,4 +1,5 @@
 lanche = ("Hamburger", "Suco", "Pizza", "Pudim")
+#tuplas são imutaveis
 print(lanche[1])
 print(lanche[1:3])
 print(lanche[2:])
