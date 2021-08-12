@@ -11,14 +11,13 @@ while True:
     if r in 'Nn':
         break
 print(numbers)
-even = numbers[:]
-odd = numbers[:]
-for c in even:
-    if c % 2 == 1:
-        even.remove(c)
-for c in odd:
-    if c % 2 == 0:
-        odd.remove(c)
+even = list()
+odd = list()
+for i, v in enumerate(numbers):
+    if v % 2 == 0:
+        even.append(v)
+    elif v % 2 == 1:
+        odd.append(v)
 print(f'Os numeros pares são: {even}')
-print(odd)
+print(f'Os numeros impares são: {odd}')
 print('FIM')
