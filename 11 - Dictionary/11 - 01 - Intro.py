@@ -29,3 +29,21 @@ estado2 = {'uf': 'Sao Paulo', 'sigla': 'SP'}
 brasil.append(estado1)
 brasil.append(estado2)
 print(brasil)
+print(brasil[1]['sigla'])
+#
+#Copying a dict
+#
+estado = dict()
+estadobrasil = list()
+for c in range(0, 2):
+    estado['uf'] = str(input('Unidade Federativa: '))
+    estado['sigla'] = str(input('Sigla do Estado: '))
+    estadobrasil.append(estado.copy()) #Here we make a copy from dict ESTADO
+print(estadobrasil)
+for e in estadobrasil:
+    for k, v in e.items():
+        print(f'O campo {k} tem valor {v}.')
+for e in estadobrasil:
+    for v in e.values():
+        print(v, end=' ')
+    print()
