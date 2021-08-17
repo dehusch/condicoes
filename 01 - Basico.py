@@ -24,6 +24,7 @@ d = n1 / n2
 di = n1 //n2
 rd = n1 % n2
 exp = n1 ** n2
+dif = n1 != n2      #para expressar quando um numero é diferente
 ra = (n1+n2)**(1/2)
 print('A subtração vale {}'.format(a), end=' e ')
 print('a soma vale: {}'.format(s))
