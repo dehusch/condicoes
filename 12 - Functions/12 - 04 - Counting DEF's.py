@@ -32,22 +32,12 @@ ini = int(input('Digite o inicio: '))
 fim = int(input('Digite o fim:'))
 pas = int(input('Digite o passo: '))
 contador(ini, fim, pas)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#
+#
 #
 #My way
+#
+#
 #
 print()
 def count10():
