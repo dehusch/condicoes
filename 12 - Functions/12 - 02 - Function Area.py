@@ -7,3 +7,4 @@ def area():
 #Programa principal
 largura = float(input('LARGURA: '))
 comprimento = float(input('COMPRIMENTO: '))
+area()
