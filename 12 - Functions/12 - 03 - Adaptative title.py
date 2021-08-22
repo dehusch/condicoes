@@ -11,3 +11,4 @@ def titulo(txt):
 
 
 titulo('CONTAGEM DE LETRAS')
+#SIMPLE UPDATE
