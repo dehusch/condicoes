@@ -5,8 +5,9 @@
 #frase.count()
 #len(frase)
 def titulo(txt):
-    cont = len(titulo)
-    print(cont)
+    print('-'*len(txt))
+    print(txt)
+    print('-'*len(txt))
 
 
 titulo('CONTAGEM DE LETRAS')
