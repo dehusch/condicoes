@@ -15,4 +15,5 @@ def fatorial(n, show=False):
     return f
 
 
-print(fatorial(5, show=True)) #Se definir false não aparece o calculo
+print(fatorial(5, show=False)) #Se definir false não aparece o calculo
+help(fatorial)
