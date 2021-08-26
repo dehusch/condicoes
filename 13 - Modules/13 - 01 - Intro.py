@@ -3,7 +3,7 @@
 #We can do it under two ways...
 import uteis #Here I just set the library, it's the recomended way
 from uteis import triplo #Here we can have some trouble as arguents.
-import pacote
+from pacote import numeros
 
 num = int(input('Digite um valor: '))
 fat = uteis.fatorial(num) #quando não especifico no import
@@ -15,5 +15,5 @@ print(f'O triplo de {num} é {triplo(num)}') #quando especifico no import
 #PACOTES (PACKAGE)
 #For a structural sorted programming, for huge coding
 #lines, we can split it in packages
-
+#
 print(f'O Quadruplo de {num} é {numeros.quadruplo(num)}') #AQUI VEM DO PACOTE
