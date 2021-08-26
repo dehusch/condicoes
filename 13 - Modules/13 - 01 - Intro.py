@@ -1,11 +1,6 @@
-def fatorial(n, show=False):
-    f = 1
-    for c in range(n, 0, -1):
-        if show:
-            print(f'{c} x')
-        f = f * c
-    return f
+import uteis
 
-
-print(fatorial(5, show=False)) #Se definir false não aparece o calculo
-help(fatorial)
+num = int(input('Digite um valor: '))
+fat = uteis.fatorial(num)
+print(f'O fatorial de {num} é {fat}')
+print(f'O dobro de {num} é {uteis.dobro(num)}')
