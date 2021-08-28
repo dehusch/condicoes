@@ -17,3 +17,6 @@ print(f'O triplo de {num} é {triplo(num)}') #quando especifico no import
 #lines, we can split it in packages
 #
 print(f'O Quadruplo de {num} é {numeros.quadruplo(num)}') #AQUI VEM DO PACOTE
+#
+#Today I've decided to use Freebsd as my main SO
+#
