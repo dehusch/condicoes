@@ -5,8 +5,8 @@
 #THE Package in VScode doesn't need a folder especification in import line
 #THIS IS VERY IMPORTANT
 
-from utilidadescev import moeda
-p = float(input('Digite o preço: R$'))
+from utilidadescev import moeda, dado
+p = dado.leiaDinheiro('Digite o preço: R$')
 moeda.resumo(p)
 #UMA ALTERAÇÃO NO PROGRAMA PADRAO
 print()
