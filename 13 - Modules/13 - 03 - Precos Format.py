@@ -1,4 +1,4 @@
-import moeda
+import moedaformat
 p = float(input('Digite o preço: R$'))
 print(f'A metade é = {moeda.metade(p)}')
 print(f'O dobro é = {moeda.dobro(p)}')
