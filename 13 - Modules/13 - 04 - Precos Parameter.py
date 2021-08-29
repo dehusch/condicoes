@@ -1,6 +1,6 @@
 import moedaparam
 p = float(input('Digite o preço: R$'))
-print(f'A metade é = {moedaformat.moeda(moedaformat.metade(p))}')
-print(f'O dobro é = {moedaformat.moeda(moedaformat.dobro(p))}')
-print(f'Aumentando 10% = {moedaformat.moeda(moedaformat.aumentar(p, 10))}')
-print(f'Diminuindo 13% = {moedaformat.moeda(moedaformat.diminuir(p, 13))}')
+print(f'A metade é = {moedaparam.metade(p, True)}')
+print(f'O dobro é = {moedaparam.dobro(p, True)}')
+print(f'Aumentando 10% = {moedaparam.aumentar(p, 10, True)}')
+print(f'Diminuindo 13% = {moedaparam.diminuir(p, 13, True)}')
