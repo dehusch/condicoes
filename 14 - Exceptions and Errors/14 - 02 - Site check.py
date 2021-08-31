@@ -7,4 +7,4 @@ except urllib.error.URLError:
     print('Deu certo!')
 else:
     print('Tudo ok!')
-    print(site.read())
+    print(site.read()) #Tras o codigo do site.
